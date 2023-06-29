@@ -2,7 +2,7 @@ package main
 
 import (
     "os"
-    huaweicloud "vault-plugin-secrets-huaweicloud"
+    huaweicloud "github.com/mgtv-paas/vault-plugin-secrets-huaweicloud"
 
     "github.com/hashicorp/go-hclog"
     "github.com/hashicorp/vault/api"

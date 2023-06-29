@@ -1,16 +1,14 @@
-module vault-plugin-secrets-huaweicloud
+module github.com/mgtv-paas/vault-plugin-secrets-huaweicloud
 
 go 1.19
 
 require (
-	github.com/golang/mock v1.1.1
 	github.com/hashicorp/go-hclog v1.5.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/go-uuid v1.0.2
 	github.com/hashicorp/vault/api v1.3.0
 	github.com/hashicorp/vault/sdk v0.9.0
 	github.com/huaweicloud/huaweicloud-sdk-go-v3 v0.1.38
-	golang.org/x/tools v0.6.0
 )
 
 require (
